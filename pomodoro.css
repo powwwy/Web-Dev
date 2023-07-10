@@ -1,10 +1,64 @@
-.lines{
-    width:300px;
-    margin-right:400px;
-    margin-top:260px;
-    }
-
-.doroz{
-    width:40px;
-    height:40px;
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+body{
+  background-color: rgb(255, 230, 255);
+  
+}
+header{
+   background-color: brown;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   height: 60px;
+}
+#timer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #time {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+#counter {
+    text-align: center;
+   font-size: 24px;
+   display: flex;
+   margin-left: 550px;
+   flex-direction: column;
+   width: 250px;
+  
+  }
+  #counter label{
+     margin: 25px;
+     background-color: brown;
+ border-radius: 15px;
+  }
+
+
+  #settings{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   font-size: 24px;
+  }
+  #settings input[type="number"]{
+  width: fit-content;
+  height: 22px;
+  margin: 15px;
+  border-radius: 30px;
+  font-size: 24px;
+  border: solid 3px rgb(0, 105, 40);
+  }
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 5px;
+  }
