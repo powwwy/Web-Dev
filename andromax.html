@@ -3,21 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>ANDROMAX - We've Got You Covered!</title>
+  <link id="theme-style" rel="stylesheet" type="text/css" href="andromax-light.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <style>
+    /* Your existing CSS styles here */
+  </style>
 </head>
 <body>
-  <h1>ANDROMAX</h1>
-  <h2>We got you covered!</h2>
-  <p>Have problems keeping up with all your work?</p>
-  <p>Andromax is here for you!<p>
-
-  <h3>schedule<h3>
-  <p>An avenue to students to work on their time management.</p>
-  <h4>streaks</h4>
-  <p>Set targets for yourself and keep up with them. Additionally track your progress throughout your student career.</p>
-  <h5>Pomodoro</h5>
-  <p>This technique helps students get organized, by breaking tasks down into smaller, more manageable chunks that you can tackle one at a time.
-  </p>
-  <h5></h5>
+  <header>
+    <nav class="nav1">
+      <div class="container">
+        <h1 class="logo" style="font-family:'Montserrat';">ANDROMAX</h1>
+        <h2><i>We've Got You Covered!</i></h2>
+      </div>
+      <a href="andromax.html">Home</a>
+      <a href="pomodoro.html">Pomodoro Timer</a>
+      <a href="profilepage.php">Profile</a>
+    </nav>
+  </header>
+  <button id="themeToggleButton">
+    <span id="toggleButtonLabel">Toggle Dark Theme</span>
+  </button>
+  <section id="intro" class="intro">
+    <div class="cont1">
+      <h3>Having trouble keeping up with all your work?</h3>
+      <img src="images/problem.jpg">
+    </div>
+    <div class="cont2">
+      <h3>Andromax is here for you!</h3>
+      <img src="images/happy.jpg" alt="Happy illustration">
+    </div>
+    <div class="cont1">
+      <h3><strong>Pomodoro Technique</strong><br>This technique helps students get organized by breaking tasks down into smaller, more manageable chunks that you can tackle one at a time.</h3>
+      <img src="images/pomodorro.png" alt="Pomodoro Technique illustration">
+    </div>
+  </section>
+  
+  <footer>
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About ANDROMAX</h2>
+        <p>Learn more about our mission and how we can assist you in reaching your academic goals.</p>
+        <br>
+        <p>© Andromax 2023</p>
+      </div>
+    </section>
+  </footer>
+  <script src="theme.js"></script>
 </body>
 </html>
