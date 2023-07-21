@@ -2,11 +2,25 @@
 <html>
 <head>
   <title>Pomodoro Timer</title>
-  <link rel="stylesheet" type="text/css" href="pomodoro.css">
+  <link rel="stylesheet" type="text/css" href="andromax-light.css">
+  <link rel="stylesheet" type="text/css" href="andromax-dark.css">
+  <link rel="stylesheet" type="text/css" href="andromax-purple.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
 <body>
   <header>
-  <h1>Adnromax Pomodoro Timer</h1>
-</header>
+    <nav class="nav1">
+      <div class="container">
+        <h1 class="logo" style="font-family:'Montserrat';">ANDROMAX</h1>
+        <h2><i>We've Got You Covered!</i></h2>
+      </div>
+      <a href="andromax.html">Home</a>
+      <a href="pomodoro.html">Pomodoro Timer</a>
+      <a href="profilepage.php">Profile</a>
+    </nav>
+  </header>
+  
+  <br>
   <div id="timer">
     <div id="time">25:00</div>
     <button id="startButton">Start</button>
@@ -18,9 +32,6 @@
     <label>Tasks Completed:</label>
     <span id="taskCount">0</span>
     
-    <label>Streak:</label>
-    <span id="streakCount">0</span>
-    
   </div>
   <div id="settings">
     <label>Work Duration (minutes):</label>
@@ -29,11 +40,16 @@
     <input type="number" id="breakDuration" min="1" value="5">
     <button id="updateButton">Update</button>
   </div>
-
+  <footer>
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About ANDROMAX</h2>
+        <p>Learn more about our mission and how we can assist you in reaching your academic goals.</p>
+        <br>
+        <p>© Andromax 2023</p>
+      </div>
+    </section>
+  </footer>
   <script src="pomodoro.js"></script>
 </body>
 </html>
-
-
-
-           
