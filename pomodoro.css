@@ -3,11 +3,11 @@
 }
 
 body{
-  background-color: rgb(255, 230, 255);
+  background-color: rgb(169, 204, 255);
   
 }
 header{
-   background-color: brown;
+   background-color: #3a93b9;
    display: flex;
    justify-content: center;
    text-align: center;
@@ -35,7 +35,7 @@ header{
   }
   #counter label{
      margin: 25px;
-     background-color: brown;
+     background-color: #3a93b9;
  border-radius: 15px;
   }
 
